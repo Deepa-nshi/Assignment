@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+        <h1 style="color: aqua;">HOLDLINFO</h1>
+        <div class="centre">
+        <button class="button">
+            <span>INR &#9660;</span>
+            
+        </button>
+        <button class="button">
+            <span>BTC &#9660;</span>
+            
+        </button>
+        <button class="button">
+            <span style="width: 150px;">BUY BTC</span>
+           
+        </button>
+    </div>
+        <div class="right" style="justify-content: space-between;">
+        <button class="btn"><i class="fa-brands fa-telegram"></i>Contact Telegram</button>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+    </div>
+    </div>
+            <h3>Best price to Trade</h3>
+        <header>
+            
+            <div class="stats">
+                <div class="stat">0.1% <br/><span id="5min" style="font-size: 15px; color:rgb(64, 64, 64) ;">5 Min</span></div>
+                <div class="stat">0.96% <br/><span id="1hour" style="font-size: 15px; color: rgb(64, 64, 64)">1 Hour</span></div>
+                <div class="stat"  style="font-size: 50px;
+                text-align: center; color:#ffff;">₹2656110 <br/><span  style="font-size: 15px; color: rgb(64, 64, 64);">Average BTC/INR price including commission:</span></div>
+                <div class="stat">2.73% <br/><span id="1day" style="font-size: 15px; color: rgb(64, 64, 64)">1 Day</span></div>
+                <div class="stat">7.51%<br/> <span id="7days" style="font-size: 15px; color: rgb(64, 64, 64)">7 Days</span></div>
+            </div>
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <th>Platform</th>
+                    <th>Last Traded Price</th>
+                    <th>Buy / Sell Price</th>
+                    <th>Difference</th>
+                    <th>Savings</th>
+                </tr>
+            </thead>
+            <tbody id="crypto-data">
+                <!-- Data will be inserted here -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
